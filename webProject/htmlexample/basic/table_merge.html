@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>table merge</title>
+        <link rel="stylesheet" href="../css/poster.css">
+    </head>
+    <body>
+        <table border="1">
+            <caption>표의 병합 - rowspan 속성 </caption>
+        <tr>
+            <td rowspan="3">아래 줄 셀 합치기</td>
+            <td>1행 2열</td>
+        </tr>
+        <tr>
+            <td>2행 2열</td>
+        </tr>
+        <tr>
+            <td>3행 2열</td>
+        </tr>
+        </table>
+        <table border="1">
+            <caption>표의 병합 -colspan 속성 </caption>
+        <tr>
+            <td colspan="3">옆 칸의 셀 합치기</td>
+            
+        </tr>
+        <tr>
+            <td>2행 1열</td>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+        </table>
+        <table border="1">
+            <caption>TV 편성표</caption>
+            <tr>
+                <th>시간</th>
+                <th>ABC</th>
+                <th>BBC</th>
+                <th>CNN</th>
+            </tr>
+            <tr>
+                <th>6pm-7pm</th>
+                <td rowspan="2">영화</td>
+                <td>코미디</td>
+                <td>뉴스</td>
+            </ tr>
+            <tr>
+                <th>7pm-8pm</th>
+                <td>스포츠</td>
+                <td>시사</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+        
